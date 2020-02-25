@@ -1,4 +1,4 @@
-import 'dart:async';
+  import 'dart:async';
 
 import 'dart:io';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
@@ -64,26 +64,20 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: <Widget>[
-              Container(
-                width: double.infinity,
-                color: Colors.grey,
-                child: Text(name)),
               RaisedButton(
                   color: Colors.blue,
-                  child: const Text('changeName'),
+                  child: const Text('change state'),
                   onPressed: () {
                     try {
                       changeName(null);
                     } catch (exception, stack) {
                       print(DateTime.now());
+                      Crashlytics.instance.setString("fatal", exception);
+                      Crashlytics.instance.log("error state");
                       Crashlytics.instance.recordError(exception, stack,
-                          context: 'error changeName');
+                          context: 'error change state');
                     }
                   }),
-              Container(
-                  width: double.infinity,
-                  color: Colors.grey,
-                  child: Text(number.toString())),
               RaisedButton(
                 color: Colors.teal,
                   child: const Text('change number'),
@@ -93,7 +87,8 @@ class _MyAppState extends State<MyApp> {
                     } catch (exception, stack) {
                       print(DateTime.now());
                       Crashlytics.instance.recordError(exception, stack,
-                          context: 'error changeName');
+                          context: 'error change number');
+                      Crashlytics.instance.log("change number");
                     }
                   }),
               RaisedButton(
