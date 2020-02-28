@@ -4,7 +4,7 @@ This is demo app and containing some simple scenarios for crash reporting using 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+# Here's to help you with Flutter 
 
 A few resources to get you started if this is your first Flutter project:
 
