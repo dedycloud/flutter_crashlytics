@@ -4,14 +4,13 @@ This is demo app and containing some simple scenarios for crash reporting using 
 
 ## Getting Started
 
-# Here's to help you with Flutter 
+Here's to help you with Flutter : 
+- [Flutter Installation]https://flutter.dev/docs/get-started/install)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Once Flutter is set on your PC, you will need to get firebase and crashlytics added into our projects :
+- [Add Firebase to Flutter Projects]
+https://firebase.google.com/docs/flutter/setup?platform=android
+- [Add Crashlytics to Flutter Projects]
+https://pub.dev/packages/firebase_crashlytics
+- [Official sample flutter project from firebase]https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_crashlytics/example
 
