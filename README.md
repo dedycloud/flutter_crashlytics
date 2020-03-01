@@ -1,11 +1,9 @@
 # flutter_x_crashlytics
 
-This is a demo app and containing some `simple scenario for crash reporting using Crashlytics tool by Firebase.`
+This is a demo app and containing some `Simple Scenario for Crash Reporting Using Crashlytics Tool by Firebase.`
 
 ## Crash
 `Crash` is a state where a software --an application software or operating system-- is not properly running. In some cases, Craah can leads applications to close forcefully.
-
-Ketika Mobile apps sudah dirilis ke publik dan masih memiliki suatu bug atau issue yang menyebabkan Mobile apps tersebut crash dapat menyebabkan pengguna meng-uninstal atau bahkan menulis review negatif pada App Store atau mungkin akan mempostingnya di sosial media.
 
 ## Crashlytics
 `Firebase Crashlytics` helps you track, prioritize, and fix stability issues that erode app quality, in realtime. Spend less time triaging and troubleshooting crashes and more time building app features that delight users. Crash are grouped by method and line exception, with some warnings which tell us where is the root cause from an exception.
@@ -24,7 +22,7 @@ Here's some helping links :
 - [Find keystore and add it to firebase project](https://codelabs.developers.google.com/codelabs/firebase-android/#4)
 - [Stackoverflow : Flutter Crashlytics log caught exception](https://stackoverflow.com/questions/57997416/flutter-crashlytics-log-caught-exception)
 
-## What became `highlight` to work with Crashlytics
+## `Highlight` to Work with Crashlytics
 - Issues Tab :
   - `Issues`   => where issue actually happened --filename/classname followed by line of error--
   - `Versions` => Which application version contains the error
@@ -35,6 +33,8 @@ Here's some helping links :
 Fatal    : This type of error should be on the top of bug fixing list, since it can affects application to have bad performance and bad user experience, or in a worst case, application is stopped. 
 Nonfatal : A tolerable error, will not stop the application but still can cause bad user experience.
 ```
+# Picture to Help YOU Figure Out
+![crash](issues.png)
   
   
 ## Example result
