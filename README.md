@@ -24,17 +24,19 @@ Here's some helping links :
 - [Find keystore and add it to firebase project](https://codelabs.developers.google.com/codelabs/firebase-android/#4)
 - [Stackoverflow : Flutter Crashlytics log caught exception](https://stackoverflow.com/questions/57997416/flutter-crashlytics-log-caught-exception)
 
-## What became `highlight` in crash reporting 
-- Intencity => How often the crash happened, how many peope are being affected, and how is the possibility of crash happened from 1000 users
-- User profile => What device was used when crash happened, on which OS version 
-- Error type => fatal or non fatal
+## What became `highlight` to work with Crashlytics
+- Issues Tab :
+  => where issue actually happened --filename/classname followed by line of error--, you'll find it under `Issues`
+  => Details => contains the type of error, which fatal or non fatal
 ```
 Fatal    : This type of error should be on the top of bug fixing list, since it can affects application to have bad performance and bad user experience, or in a worst case, application is stopped. 
 Nonfatal : A tolerable error, will not stop the application but still can cause bad user experience.
 ```
-- Project and package name, with detailed line of error.
-- Total crash event
-- Number of affected users
+  => Which application version contains the error, you'll find it under 'Versions'
+  => how often the crash happened, you'll find it under `Events`
+  => how many peope are being affected, you'll find it under `Users`
+  
+  
 ## Example result
 ![crash](kliks.png)
 Here's the example of error out of bound  
