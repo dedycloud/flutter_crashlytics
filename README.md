@@ -26,15 +26,15 @@ Here's some helping links :
 
 ## What became `highlight` to work with Crashlytics
 - Issues Tab :
-  => where issue actually happened --filename/classname followed by line of error--, you'll find it under `Issues`
-  => Details => contains the type of error, which fatal or non fatal
+  - where issue actually happened --filename/classname followed by line of error--, you'll find it under `Issues`
+  - Details => contains the type of error, which fatal or non fatal
 ```
 Fatal    : This type of error should be on the top of bug fixing list, since it can affects application to have bad performance and bad user experience, or in a worst case, application is stopped. 
 Nonfatal : A tolerable error, will not stop the application but still can cause bad user experience.
 ```
-  => Which application version contains the error, you'll find it under 'Versions'
-  => how often the crash happened, you'll find it under `Events`
-  => how many peope are being affected, you'll find it under `Users`
+  - Which application version contains the error, you'll find it under 'Versions'
+  - how often the crash happened, you'll find it under `Events`
+  - how many peope are being affected, you'll find it under `Users`
   
   
 ## Example result
