@@ -28,6 +28,9 @@ Here's some helping links :
 ##
 ## Crashlytics Highlights
 #### Here are`Highlight`'s to Work with Crashlytics 
+
+
+#### Issue tab in Firebase Console
 - ##### Issues Tab 
     (You will be able to find this screen, just right after you click Crashlytics on sidebar)
   - `Issues`   => where issue actually happened --filename/classname followed by line of error--
@@ -42,7 +45,6 @@ Fatal    : This type of error should be on the top of bug fixing list, since it 
 Nonfatal : A tolerable error, will not stop the application but still can cause bad user experience.
 ```
 
-#### Issue tab in Firebase Console
 Issues Tab
 ![crash](issues.png)
  
