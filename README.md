@@ -33,7 +33,7 @@ Here's some helping links :
 Fatal    : This type of error should be on the top of bug fixing list, since it can affects application to have bad performance and bad user experience, or in a worst case, application is stopped. 
 Nonfatal : A tolerable error, will not stop the application but still can cause bad user experience.
 ```
-# Picture to Help YOU Figure Out
+### Picture to Help YOU Figure Out
 ![crash](issues.png)
   
   
