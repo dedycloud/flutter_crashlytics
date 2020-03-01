@@ -3,7 +3,7 @@
 This is a demo app and containing some `Simple Scenario for Crash Reporting Using Crashlytics Tool by Firebase.`
 
 ##
-##Fundamentals
+## Fundamentals
 #### Crash
 `Crash` is a state where a software --an application software or operating system-- is not properly running. In some cases, Craah can leads applications to close forcefully.
 
